@@ -1,0 +1,7 @@
+To start, I began turning my website into something I liked with CSS, and I began designing it for Desktop at first. I got way in the weeds with this, just trying to make it look good. From there, I started defining what I wanted things to look like for each device size. I started off with no plan, and long story short, I wasted about 3 hours trying this, and had a homepage that looked OK. For my next CSS file, I knew that I needed to organize things in a way that allowed me to easily tweak various parts of the page at various screen sizes. So I set up intervals that would separate mobile, tablet, and desktop, and some more intervals that would apply to desktop and tablet and mobile and tablet. I did this using various commands like this
+
+@media (max-width: blahblahpx) 
+
+From there, it was easy to get things where I wanted. I relied heavily on flexbox, and basically had a nested flexbox system that allowed for very precise control of each individual element's behavior. At certain intervals I would switch the flex-direction from row to column, allowing more information to be shown without sideways scrolling. I also tweaked the size of text and images to make sense for various pages.
+
+I used almost no CHATgpt, only to ask very specific questions for bugs I was having.

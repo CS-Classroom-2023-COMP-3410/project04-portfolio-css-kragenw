@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!-- Specifies the character encoding as UTF-8 for correct text rendering -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design for different screen sizes -->
+        <meta name="description" content="Welcome to my retro-themed website!"> <!-- Provides a brief description for search engines -->
+        <title>Kragen Wild Retro Website</title> <!-- Sets the title of the page that appears in the browser tab -->
+        <link rel="stylesheet" href="contact-styles.css"> <!-- Links the external CSS file for styling the page -->
+    </head>
+    <body> <!-- Sets the background color of the page to 'blanchedalmond' -->
+        <header>
+            <h1> Hello! I'm Kragen Wild</h1> <!-- Displays the main heading with a custom font color (deprecated usage of <font>) -->
+                <table class="styled-table">
+                    <colgroup>
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr class="row-coral">
+                            <td> </td>
+                        </tr>
+                        <tr class="row-chocolate">
+                            <td> </td>
+                        </tr>
+                        <tr class="row-brown">
+                            <td> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            <nav> <!-- Defines the navigation section of the webpage -->
+                <ul>
+                    <li><a href="index.html" aria-label="Go to the homepage">Home</a></li> <!-- Link to the homepage -->
+                    <li><a href="about.html" aria-label="Go to the about page">About Me</a></li> <!-- Link to the About Me page -->
+                    <li><a href="contact.html" aria-label="Go to the contact page">Contact</a></li> <!-- Link to the Contact page -->
+                    <li><a href="trips/iceland/iceland.html" aria-label="Go to the trips page">Trips</a></li> <!-- Link to the trips page -->
+                    <li><a href="arcade_games/arcade_games.html" aria-label="Go to the arcade game page">Arcade Games</a></li> <!-- Link to the arcade games page -->
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class = "form-container"> <!-- Container for the contact form -->
+                <div class = "instruction-container">
+                    <h2>Contact me!</h2> <!-- Subheading indicating the contact section of the page -->
+                    <h4>Be sure to replace the "+" symbols with spaces!</h4> <!-- A note to users regarding the input format for the email form -->
+        
+                </div> 
+                <!-- The form allows users to send an email directly to Kragen's address -->
+                <form class = "form" action="mailto:kragen.wild@du.edu" method="GET" enctype="text/plain"> <!-- Form submission via email with GET method and plain text encoding -->
+                    <input class = "mail-subject" type="text" name="subject" placeholder="Subject"> <!-- Text input for email subject -->
+                    <br> <!-- Line break -->
+                    <textarea class = "mail-body" name="body" placeholder="Message" rows="1" cols="10"></textarea> <!-- Textarea for the email body/message -->
+                    <br> <!-- Line break -->
+                    <input class = "button" type="submit" value="Send Email"> <!-- Submit button to send the email -->
+                </form>
+            </div>
+        </main>
+        <footer>
+            <!-- Footer section with a table to create a decorative effect at the bottom of the page -->
+            <table class="styled-table">
+                <colgroup>
+                    <col>
+                </colgroup>
+                <tbody>
+                    <tr class="row-coral">
+                        <td> </td>
+                    </tr>
+                    <tr class="row-chocolate">
+                        <td> </td>
+                    </tr>
+                    <tr class="row-brown">
+                        <td> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </footer>
+    </body>
+</html>
+
